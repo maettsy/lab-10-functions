@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+//function factorial(n) {
+
+//	var a = parseInt(n);
+//	console.log(a);
+
+//}
+
+//var n = prompt("Number please:");
+//factorial(n);
+
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  }
+  
+  return n * factorial(n - 1);
+}
+
+var p = prompt("Number please:");
+
+console.log(factorial(p));
+
+</script>
+</body>
+</html>
